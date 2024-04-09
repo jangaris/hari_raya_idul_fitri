@@ -1,0 +1,106 @@
+body {
+  background-image: url("img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.content-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#text {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5rem;
+}
+.card {
+  padding: 10rem;
+  background-color: transparent;
+  border: none;
+}
+#hari-raya {
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#hari-raya h1 {
+  font-size: 5.5rem;
+  color: azure;
+}
+#hari-raya h3 {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+#hari-raya h4 {
+  font-size: 3.5rem;
+  color: white;
+}
+.custom-font2 {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.custom-fontp {
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-position: center;
+    min-height: 100vh;
+    border: box;
+  }
+  #hari-raya {
+    font-size: 1.5rem; /* Sesuaikan ukuran font sesuai kebutuhan */
+    text-align: center;
+  }
+  .card {
+    padding: 0;
+  }
+  .text-ketik {
+    flex-wrap: wrap;
+    font-size: 1rem;
+  }
+  #text {
+    weight: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.5rem;
+  }
+  .orang {
+    width: 75%;
+  }
+}
+@media (max-width: 680px) {
+  #hari-raya h1 {
+    font-size: 4rem;
+    color: azure;
+  }
+  #hari-raya h3 {
+    font-size: 3.5rem;
+    color: whitesmoke;
+  }
+  #hari-raya h4 {
+    font-size: 2rem;
+    color: white;
+  }
+  .custom-fontp {
+    font-size: 1rem;
+    color: azure;
+  }
+}
